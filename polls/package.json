@@ -1,0 +1,14 @@
+{
+  "name": "@fluxer/polls",
+  "version": "1.0.0",
+  "description": "Fluxer Polls Reference Implementation - Simple & Ranked Choice Voting",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "node --test test/*.test.mjs",
+    "build": "tsc"
+  },
+  "keywords": ["fluxer", "polls", "ranked-choice", "irv", "voting"],
+  "author": "jackmercy",
+  "license": "MIT"
+}
