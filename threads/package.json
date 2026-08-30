@@ -1,0 +1,14 @@
+{
+  "name": "@fluxer/threads",
+  "version": "1.0.0",
+  "description": "Fluxer Threads Reference Implementation - Sub-channel lifecycle, permissions, and auto-archive",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "node --test test/*.test.mjs",
+    "build": "tsc"
+  },
+  "keywords": ["fluxer", "threads", "subchannels", "chat"],
+  "author": "jackmercy",
+  "license": "MIT"
+}
