@@ -1,0 +1,14 @@
+{
+  "name": "@fluxer/activity-detection",
+  "version": "1.0.0",
+  "description": "Fluxer Rich Presence & Activity Detection Engine (Discord-compatible IPC & Process Auto-Discovery)",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "node --test test/*.test.mjs",
+    "build": "tsc"
+  },
+  "keywords": ["fluxer", "rpc", "rich-presence", "activity-detection", "ipc"],
+  "author": "jackmercy",
+  "license": "MIT"
+}
