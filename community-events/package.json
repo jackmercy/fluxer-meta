@@ -1,0 +1,16 @@
+{
+  "name": "@fluxer/community-events",
+  "version": "0.1.0",
+  "description": "Fluxer Community Events & Instance Safety Moderation Suite (Bounties #19 & #20)",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "test": "node --test test/community-events.test.mjs",
+    "build": "tsc"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^5.4.0"
+  }
+}
