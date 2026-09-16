@@ -1,0 +1,16 @@
+{
+  "name": "@fluxer/advanced-calendar",
+  "version": "0.1.0",
+  "description": "Fluxer Advanced Calendar Voice Channel Access, Temporary Accounts, and Password Protection (Bounty #22)",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "test": "node --test test/advanced-calendar.test.mjs",
+    "build": "tsc"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^5.4.0"
+  }
+}
