@@ -1,0 +1,16 @@
+{
+  "name": "@fluxer/user-calendars",
+  "version": "0.1.0",
+  "description": "Fluxer User Calendars: Event Subscriptions and RFC 5545 iCalendar Export (Bounty #21)",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "test": "node --test test/user-calendars.test.mjs",
+    "build": "tsc"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^5.4.0"
+  }
+}
